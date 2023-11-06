@@ -1,0 +1,55 @@
+ID: 1
+Titulo: Teste 1
+Aluno: cobaia 1
+Orientador: cobaia21
+Status: avaliado
+
+ID: 1
+Titulo: teste 2
+Aluno: cobaia 2
+Orientador: cobaia 22
+Status: n∆o avaliado
+
+ID: 1
+Titulo: Teste 03
+Aluno: cobaia 3
+Orientador: cobaia 23
+Status: em execuá∆o
+
+ID: 1
+Titulo: teste 01
+Aluno: cobaia 01
+Orientador: cobaia 01
+Status: 001
+
+ID: 1
+Titulo: teste 02
+Aluno: 002
+Orientador: 002
+Status: 002
+
+ID: 1
+Titulo: 003
+Aluno: 003
+Orientador: 003
+Status: 003
+
+ID: 1
+Titulo: 004
+Aluno: 004
+Orientador: 004
+Status: 004
+
+ID: 1
+Titulo: 005
+Aluno: 005
+Orientador: 005
+Status: 005
+
+ID: 1
+Nome do Arquivo: 006.txt
+Titulo: 006
+Aluno: 006
+Orientador: 006
+Status: 006
+
