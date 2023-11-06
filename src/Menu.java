@@ -30,7 +30,7 @@ public class Menu {
                 // listaExecução();
                 // break;
                 // case 5:
-                // listaaprov_reprov();
+                // editarTCC();
                 // break;
                 case 6:
                 System.out.println("Programa Finalizando...");

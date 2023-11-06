@@ -4,7 +4,6 @@ import java.io.PrintWriter;
 
 public class TCC {
     private String nomeArquivo;
-    private int id_int = 0;
     private int id;
     private String titulo;
     private String aluno;
@@ -12,9 +11,8 @@ public class TCC {
     private String status;
 
     public TCC(String titulo, String aluno, String orientador, String status) {
-        id_int++;
 
-        this.id = id_int;
+        this.id = Armazenar_id.ID(id);
         this.titulo = setTitulo(titulo);
         this.aluno = setAluno(aluno);
         this.orientador = setOrientador(orientador);
@@ -24,7 +22,6 @@ public class TCC {
     // public String setId(String id) {
     // return
     // }
-    
     public String setTitulo(String titulo) {
         return this.titulo = titulo;
     }
