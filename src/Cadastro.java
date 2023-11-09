@@ -14,28 +14,20 @@ public class Cadastro {
         cadastro.setOrientador(orientador);
         cadastro.setStatus(status);
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(titulo).append(".txt");
         try {
-            FileWriter file = new FileWriter(sb.toString());
-            file.write(cadastro.toString());
+            FileWriter file = new FileWriter(cadastro.getId()+".txt");
             file.close();
         } catch (IOException e) {
             // TODO Auto-generated catch block]
             System.out.println("Erro ao criar o arquivo.");
             e.printStackTrace();
         }
-        String name = sb.toString();
+        String name = (Integer.toString(cadastro.getId()))+".txt";
         cadastro.setnomeArquivo(name);
         cadastro.getnomeArquivo(name);
         System.out.println(cadastro.salvar());
         System.out.println(cadastro.salvararquivo());
         System.out.println();
-
-        // System.out.println("Titulo: " + cadastro.getTitulo());
-        // System.out.println("Aluno: " + cadastro.getAluno());
-        // System.out.println("Orientador: " + cadastro.getOrientador());
-        // System.out.println("Status: " + cadastro.getStatus());
 
     }
 }

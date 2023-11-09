@@ -8,9 +8,9 @@ public class Menu {
             System.out.println("MENU");
             System.out.println("1- Cadastrar TCC");
             System.out.println("2- Lista de TCCs");
-            System.out.println("3- Avaliação de Trabalho");
-            System.out.println("4- Lista de TCCs em execução");
-            System.out.println("5- Lista de TCCs Aprovados e Reprovaodos");
+            System.out.println("3- Adicionar Conteúdo");
+            //System.out.println("4- Lista de TCCs em execução");
+            //System.out.println("5- Lista de TCCs Aprovados e Reprovaodos");
             System.out.println("6- Sair");
             System.out.println();
 
@@ -23,14 +23,14 @@ public class Menu {
                 case 2:
                     Lista.main(null);
                     break;
-                // case 3:
-                // avaliação();
-                // break;
+                case 3:
+                    Adicionar_Conteudo.AddCont();
+                    break;
                 // case 4:
                 // listaExecução();
                 // break;
                 // case 5:
-                // editarTCC();
+                // AdicionarCont();
                 // break;
                 case 6:
                 System.out.println("Programa Finalizando...");

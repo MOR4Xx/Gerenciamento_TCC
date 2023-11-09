@@ -18,10 +18,7 @@ public class TCC {
         this.orientador = setOrientador(orientador);
         this.status = setStatus(status);
     }
-
-    // public String setId(String id) {
-    // return
-    // }
+    
     public String setTitulo(String titulo) {
         return this.titulo = titulo;
     }
@@ -68,14 +65,15 @@ public class TCC {
         try {
             FileWriter fw = new FileWriter("tccs.txt", true); // true para acrescentar informações no final do arquivo
             PrintWriter pw = new PrintWriter(fw);
-            pw.println("ID: " + this.getId());
-            pw.println("Nome do Arquivo: "+this.getnomeArquivo(nomeArquivo));
+            pw.println("ID:" + this.getId());
+            //pw.println("Nome do Arquivo: "+this.getnomeArquivo(nomeArquivo));
             pw.println("Titulo: " + this.getTitulo());
             pw.println("Aluno: " + this.getAluno());
             pw.println("Orientador: " + this.getOrientador());
             pw.println("Status: " + this.getStatus());
-            pw.println(); // Adiciona uma linha em branco para separar os TCCs
+            pw.println();
             pw.close();
+            System.out.println();
             return "TCC salvo com sucesso!";
         } catch (IOException e) {
             return "Erro ao salvar TCC: " + e.getMessage();
@@ -83,19 +81,18 @@ public class TCC {
     }
     public String salvararquivo() {
         try {
-            FileWriter fw = new FileWriter(nomeArquivo, true); // true para acrescentar informações no final do arquivo
+            FileWriter fw = new FileWriter(nomeArquivo); // true para acrescentar informações no final do arquivo
             PrintWriter pw = new PrintWriter(fw);
-            pw.println("ID: " + this.getId());
+            pw.println("ID:" + this.getId());
             pw.println("Titulo: " + this.getTitulo());
             pw.println("Aluno: " + this.getAluno());
             pw.println("Orientador: " + this.getOrientador());
             pw.println("Status: " + this.getStatus());
-            pw.println(); // Adiciona uma linha em branco para separar os TCCs
+            pw.println();
             pw.close();
             return " ";
         } catch (IOException e) {
-            return "Erro ao salvar TCC: " + e.getMessage();
+            return "Erro ao salvar Arquivo: " + e.getMessage();
         }
     }
-
 }

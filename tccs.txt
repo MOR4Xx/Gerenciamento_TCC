@@ -1,42 +1,12 @@
-ID: 0
-Nome do Arquivo: teste 1 id.txt
-Titulo: teste 1 id
-Aluno: cobaia 1 id
-Orientador: cobaia 21 id
-Status: em andamento
+ID:1
+Titulo: teste 1
+Aluno: ïsafno
+Orientador: awnd w
+Status: sajklda
 
-ID: 1
-Nome do Arquivo: teste 2 id.txt
-Titulo: teste 2 id
-Aluno: cobaia 2
-Orientador: cobaia 22
-Status: em execuï¿½ï¿½o
-
-ID: 2
-Nome do Arquivo: teste 3 id.txt
-Titulo: teste 3 id
-Aluno: cobaia 3
-Orientador: cobaia 23
-Status: em andamento
-
-ID: 3
-Nome do Arquivo: teste 4 id.txt
-Titulo: teste 4 id
-Aluno: cobaia 4
-Orientador: cobaia 24
-Status: em andamento
-
-ID: 4
-Nome do Arquivo: teste 5.txt
-Titulo: teste 5
-Aluno: cobaia 5
-Orientador: cobaia 25
-Status: em execuï¿½ï¿½o
-
-ID: 5
-Nome do Arquivo: Teste 6.txt
-Titulo: Teste 6
-Aluno: cobaia 6
-Orientador: cobaia 26
-Status: em andamento
+ID:2
+Titulo: teu  cu
+Aluno: joao
+Orientador: jorge
+Status: blabla
 
