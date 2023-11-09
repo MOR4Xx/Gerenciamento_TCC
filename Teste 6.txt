@@ -1,6 +1,0 @@
-TCC@15aeb7abID: 5
-Titulo: Teste 6
-Aluno: cobaia 6
-Orientador: cobaia 26
-Status: em andamento
-
